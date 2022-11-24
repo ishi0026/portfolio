@@ -10,4 +10,4 @@ portfolio for Final Project
 
 # What have you learned by creating your web portfolio? 
 
-# a list of any assets or resources you used that was not your own,
+# a list of any assets or resources you used that was not your own,including any frameworks, libraries, plugins, fonts, or images. 
