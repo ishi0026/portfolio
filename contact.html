@@ -45,9 +45,46 @@
             </div>
           </nav>
     </header>
+
+    <hr class="mb-5">
     <main>
-        
-    </main>  
+      <section class="container-fluid mt-5">
+        <h2 class="display-4 fw-bold text-center mt-5">
+            CONTACT
+        </h2>
+
+        <!-- Creating contact form -->
+        <form>
+            <div class="row mt-5 mb-3">
+                <label for="fullname" class="col-sm-2 col-form-label mb-3 mb-sm-0">Full Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="fullname" aria-describedby="fullname" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label mb-3 mb-sm-0">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" aria-describedby="email">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="telephone" class="col-sm-2 col-form-label mb-3 mb-sm-0">Contact</label>
+                <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="telephone" aria-describedby="telephoneNumber">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="message-label form-label">Message</label>
+                <textarea class="form-control" id="message" rows="16" aria-describedby="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success border-0 rounded-50 p-1 px-4 fs-4"
+                style="text-align: end; float: right;">Submit</button>
+        </form>
+    </section>
+    <hr>
+    </main>
+    
+    
   <footer>
     <a href="https://www.linkedin.com/.../" class="linkedin text-black">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
