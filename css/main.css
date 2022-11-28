@@ -25,6 +25,10 @@ body {
     width: 8vw;
 }
 
+h2 {
+    text-align: center;
+}
+
 .nav-item{
     font-size: x-large;
 }
@@ -79,4 +83,33 @@ footer{
 .bi-twitter:hover {
     color: #00adb5;
 }
-  
+
+/* 
+CONTACT page STYLES: 
+This block of css code contains the styles
+*/
+
+form {
+    font-size: x-large;
+}
+
+form label{
+    color: black;
+
+}
+
+.comment-label{
+    padding: 1vw;
+    padding-right: 4vw;
+}
+
+/* Small - Large devices (small phones to laptops, 1600px and down) */
+@media only screen and (max-width: 1600px) {
+    iframe{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        height: 40vw;
+        width: 80vw;
+    }
+}
