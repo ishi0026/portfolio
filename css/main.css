@@ -9,7 +9,7 @@ I'm using a CSS Reset by Meyer Web
    License: none (public domain)
 */
 
-/* Importing google font */
+/* Importing google font??? */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
@@ -37,8 +37,7 @@ footer{
     text-align: right;
 }
 
-/* Adjusting elements for small devices (phones, 400px and down) */
-/* Small devices (tablets, 600px and up) */
+/* Adjusting elements for small devices Small devices (tablets, 600px and up) */
 @media only screen and (min-width: 600px) {
     svg{
         margin: 2.5vw;
