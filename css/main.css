@@ -32,3 +32,51 @@ body {
 footer{
     text-align: right;
 }
+
+/* Adjusting elements for small devices (phones, 400px and down) */
+/* Small devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+    svg{
+        margin: 2.5vw;
+        height: 5.5vw;
+        width: 5.5vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    svg{
+        margin: 2.5vw;
+        height: 5vw;
+        width: 5vw;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    svg{
+        margin: 2vw;
+        height: 4vw;
+        width: 4vw;
+    }
+}
+
+/* SNS icons */
+.bi-linkedin,
+.bi-instagram,
+.bi-twitter {
+    text-decoration: none;
+}
+
+.bi-linkedin:hover {
+    color:#0e76a8;
+}
+
+.bi-instagram:hover {
+    color: #e11d74;
+}
+
+.bi-twitter:hover {
+    color: #00adb5;
+}
+  
