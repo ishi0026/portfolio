@@ -14,7 +14,22 @@ I'm using a CSS Reset by Meyer Web
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 /* ========================================= Global CSS ====================================== */
+/* For skiplinks */
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+/* == */
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: bolder;
