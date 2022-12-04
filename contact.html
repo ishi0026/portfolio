@@ -27,8 +27,14 @@
 
 <body>
     <header>
+      <ul class="skip-links">
+        <li><a href="#navigation" role="link" >Skip to navigation</a></li>
+        <li><a href="#contactForm" role="link" >Skip to Contact Form section</a></li>
+        <li><a href="#footer" role="link" >Skip to footer</a></li>
+     </ul>
+
         <!-- navigation bar -->
-        <nav class="navbar sticky-top navbar-expand-lg bg-light">
+        <nav class="navbar sticky-top navbar-expand-lg bg-light" role="navigation" id="navigation">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png"
                 alt="Website Logo"></a>
@@ -56,14 +62,14 @@
     </header>
 
     <hr class="mb-5">
-    <main>
+    <main role="main">
       <section class="container-fluid mt-5">
         <h2 class="display-4 fw-bold text-center mt-5">
             CONTACT
         </h2>
 
         <!-- Creating contact form -->
-        <form>
+        <form role="contactForm" id="contactForm">
             <div class="row mt-5 mb-3">
                 <label for="fullname" class="col-sm-2 col-form-label mb-3 mb-sm-0">Full Name</label>
                 <div class="col-sm-10">
