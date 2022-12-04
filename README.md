@@ -17,6 +17,7 @@ Questions?
 fonts
 submit button animation
 image optimize using "picture"
+validate html, css
 
 
 accecibility aria add almost done / just make sure at last
@@ -32,3 +33,4 @@ change SNS icon size ok -in css Svg section
 
 memo
 .display-1～>.display-4 
+detail add?
