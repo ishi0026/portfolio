@@ -15,14 +15,18 @@ portfolio for Final Project
 
 Questions?
 fonts
-navigation bar right 
-contents right (remove spaces)
 submit button animation
 image optimize using "picture"
 
 accecibility aria add almost done / just make sure at last
 
+space on "works" ok - delete py-5 it used for y axis
+navigation bar right ok -justify content-end, contents right (remove spaces) ok - class="bg-light container-md mb-5"
 The size of the icons ok
 skiplinks work ok
 the size of the box ok - change rem, 
 delete line around box ok-border-light
+
+
+memo
+.display-1～>.display-4 

@@ -46,7 +46,8 @@ body {
     width: 8vw;
 }
 
-h2 {
+h2,
+h3 {
     text-align: center;
 }
 
