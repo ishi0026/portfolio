@@ -72,8 +72,8 @@ footer{
 @media only screen and (min-width: 600px) {
     svg{
         margin: 2.5vw;
-        height: 5.5vw;
-        width: 5.5vw;
+        height: 4.5vw;
+        width: 4.5vw;
     }
 }
 
@@ -81,8 +81,8 @@ footer{
 @media only screen and (min-width: 768px) {
     svg{
         margin: 2.5vw;
-        height: 5vw;
-        width: 5vw;
+        height: 4vw;
+        width: 4vw;
     }
 }
 
@@ -90,8 +90,8 @@ footer{
 @media only screen and (min-width: 992px) {
     svg{
         margin: 2vw;
-        height: 4vw;
-        width: 4vw;
+        height: 3vw;
+        width: 3vw;
     }
 }
 

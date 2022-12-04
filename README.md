@@ -28,7 +28,7 @@ The size of the icons ok
 skiplinks work ok
 the size of the box ok - change rem, 
 delete line around box ok-border-light
-
+change SNS icon size ok -in css Svg section
 
 memo
 .display-1～>.display-4 
