@@ -14,11 +14,15 @@ portfolio for Final Project
 
 
 Questions?
-The size of the icons ok
 fonts
 navigation bar right 
-contents right
-skiplinks work
-the size of the box, line around box
+contents right (remove spaces)
 submit button animation
-accecibility aria add
+image optimize using "picture"
+
+accecibility aria add almost done / just make sure at last
+
+The size of the icons ok
+skiplinks work ok
+the size of the box ok - change rem, 
+delete line around box ok-border-light
