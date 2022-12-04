@@ -15,16 +15,22 @@ I'm using a CSS Reset by Meyer Web
 
 /* ========================================= Global CSS ====================================== */
 /* For skiplinks */
-.skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+.skip-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.skip:focus {
+.skip-links a{
+    position: absolute;
+    top: -3em;
+    background-color: white;
+    color:black;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+.skip-links a:focus {
     position: static;
     width: auto;
     height: auto;
@@ -46,6 +52,15 @@ h2 {
 
 .nav-item{
     font-size: x-large;
+}
+
+/* style "back to top" button */
+.backTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+/* padding right and bottom 0.5em */
+    padding: 0 0.5em 0.5em 0;
 }
 
 footer{
