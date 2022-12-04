@@ -18,8 +18,10 @@ fonts
 submit button animation
 image optimize using "picture"
 
+
 accecibility aria add almost done / just make sure at last
 
+delete the color around "works" -ok add bg-light
 space on "works" ok - delete py-5 it used for y axis
 navigation bar right ok -justify content-end, contents right (remove spaces) ok - class="bg-light container-md mb-5"
 The size of the icons ok
