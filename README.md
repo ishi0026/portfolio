@@ -28,7 +28,8 @@ navigation bar right ok -justify content-end, contents right (remove spaces) ok 
 The size of the icons ok
 skiplinks work ok
 the size of the box ok - change rem, 
-delete line around box ok-border-light
+works-delete line around box ok-border-light
+index delete line around box ok- div class="card h-100 border-light"
 change SNS icon size ok -in css Svg section
 
 memo
