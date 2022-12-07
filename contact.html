@@ -69,7 +69,11 @@
         </h2>
 
         <!-- Creating contact form -->
-        <form role="contactForm" id="contactForm">
+        <form role="contactForm" id="contactForm" 
+        action="mailto:ishi0026@algonquinlive.com"
+        method="POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
             <div class="row mt-5 mb-3">
                 <label for="fullname" class="col-sm-2 col-form-label mb-3 mb-sm-0">Full Name</label>
                 <div class="col-sm-10">
@@ -93,7 +97,7 @@
                 <textarea class="form-control" id="message" rows="10" aria-describedby="message"></textarea>
             </div>
             <div class="col text-center">
-                <button type="submit" class="btn btn-success border-0 rounded-50 p-1 px-4 fs-4">
+                <button type="submit" value="Submit" class="btn btn-primary border-0 rounded-50 p-1 px-4 fs-4">
                   Submit
                 </button>
             </div>

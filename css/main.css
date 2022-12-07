@@ -11,9 +11,30 @@ I'm using a CSS Reset by Meyer Web
 
 /* Importing google font??? */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
 
 /* ========================================= Global CSS ====================================== */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    max-width: 80vw;
+}
+
+:root{
+--bs-primary: #ca80c0;
+--bs-primary-rgb: 202, 128, 192;
+--bs-secondary: #FFFFFF;
+--bs-secondary-rgb: 255, 255, 255;
+    }
+  
+.btn-primary{
+--bs-btn-bg: var(--bs-primary);
+--bs-btn-border-color: var(--bs-primary);
+}
+
+/* ===== */
+
 /* For skiplinks */
 .skip-links {
     list-style: none;
@@ -36,11 +57,7 @@ I'm using a CSS Reset by Meyer Web
     height: auto;
 }
 /* == */
-body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: bolder;
-    max-width: 80vw;
-}
+
 
 .logo {
     width: 8vw;
@@ -77,6 +94,45 @@ h3 {
 /* .btn:hover{
     background-color:red;
 } */
+
+textarea{
+    width: 450px;
+    margin: 1em;
+    height: 10em;
+    text-align: left;
+  }
+  
+  textarea{
+    width: 450px;
+    margin: 1em;
+    height: 10em;
+    text-align: left;
+  }
+  
+  /* The Submit button will turn green when mouse hovers */
+  .col button {
+    position: relative;
+    left: 45%;
+    top: 80%;
+  
+    display: block;
+    text-align: center;
+  
+    color: white;
+    background-color: #ec847b;
+    text-transform: uppercase;
+  
+    text-decoration: none;  
+  
+    border-radius: 20px;
+  }
+  
+  .col button:hover {
+    background-color: #ffde59;
+  }
+  
+  
+
 
 footer{
     text-align: right;
