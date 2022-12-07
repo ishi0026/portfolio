@@ -14,11 +14,11 @@ portfolio for Final Project
 
 
 Questions?
-color custom properties
+color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
 fonts
 image optimize using "picture"
-validate html, css
-card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
+validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
+if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
 
 card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)

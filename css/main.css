@@ -22,17 +22,21 @@ body {
 }
 
 :root{
---bs-primary: #ca80c0;
---bs-primary-rgb: 202, 128, 192;
---bs-secondary: #FFFFFF;
---bs-secondary-rgb: 255, 255, 255;
-    }
-  
-.btn-primary{
---bs-btn-bg: var(--bs-primary);
---bs-btn-border-color: var(--bs-primary);
-}
+    --bs-main-color: #ec847b;
+    --bs-main-rgb: 36, 132, 123;
+    --bs-sub-color: #FFFFFF;
+    --bs-sub-rgb: 255, 255, 255;
+    --bs-third-color: #ffde59;
+    --bs-main-rgb: 255, 222, 89;
 
+  }
+
+/* ★★★？？？
+.btn-primary{
+    --bs-btn-bg: var(--bs-main-color);
+    --bs-btn-border-color: var(--bs-main-color);
+  } */
+  
 /* ===== */
 
 /* For skiplinks */
@@ -111,8 +115,8 @@ textarea{
     display: block;
     text-align: center;
   
-    color: white;
-    background-color: #ec847b;
+    color: var(--bs-sub-color);
+    background-color: var(--bs-main-color);
     text-transform: uppercase;
   
     text-decoration: none;  
@@ -121,14 +125,14 @@ textarea{
   }
   
   .col button:hover {
-    background-color: #ffde59;
+    background-color: var(--bs-third-color);
   }
-  
   
 
 footer{
     text-align: right;
 }
+/* copyright part */
 .row{
     text-align: left;
 
@@ -192,7 +196,6 @@ form {
 
 form label{
     color: black;
-
 }
 
 .comment-label{
@@ -200,13 +203,11 @@ form label{
     padding-right: 4vw;
 }
 
-/* Small - Large devices (small phones to laptops, 1600px and down) */
-@media only screen and (max-width: 1600px) {
+/* Small - Large devices (small phones to laptops, 1600px and down) not working???*/
+/* @media only screen and (max-width: 1600px) {
     iframe{
-        text-align: center;
         margin: auto;
-        padding: auto;
         height: 40vw;
         width: 80vw;
     }
-}
+} */
