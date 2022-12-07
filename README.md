@@ -21,7 +21,7 @@ validate html, css
 footer &copy right bottom side - only tried in contact page
 card link - hope not make it blue and undelined 
 
-card animation delete in specific one →　change class name
+card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)
 
 
