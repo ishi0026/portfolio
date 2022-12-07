@@ -101,14 +101,7 @@ textarea{
     height: 10em;
     text-align: left;
   }
-  
-  textarea{
-    width: 450px;
-    margin: 1em;
-    height: 10em;
-    text-align: left;
-  }
-  
+    
   /* The Submit button will turn green when mouse hovers */
   .col button {
     position: relative;
@@ -133,10 +126,14 @@ textarea{
   
   
 
-
 footer{
     text-align: right;
 }
+.row{
+    text-align: left;
+
+}
+
 
 /* Adjusting elements for small devices Small devices (tablets, 600px and up) */
 @media only screen and (min-width: 600px) {

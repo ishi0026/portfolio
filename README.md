@@ -14,18 +14,17 @@ portfolio for Final Project
 
 
 Questions?
+color custom properties
 fonts
-submit button animation
 image optimize using "picture"
 validate html, css
-footer &copy right bottom side - only tried in contact page
-card link - hope not make it blue and undelined 
+card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
 
 card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)
 
 
-accecibility aria add almost done / just make sure at last
+accecibility aria add almost done / just make sure at last- role, placeholder etc
 
 delete the color around "works" -ok add bg-light
 space on "works" ok - delete py-5 it used for y axis
@@ -37,6 +36,10 @@ works-delete line around box ok-border-light
 index delete line around box ok- div class="card h-100 border-light"
 change SNS icon size ok -in css Svg section
 submit button center -ok  created div class and set col / mx-auto d-block also work
+
+submit button animation - ok added  .col button {} in css
+
+footer &copy right bottom side - only tried in contact page -ok  added .row{ text-align: left;} in css, and change the div<> to bottom of the sns links
 
 
 memo
