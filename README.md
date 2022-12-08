@@ -14,6 +14,8 @@ portfolio for Final Project
 
 
 Questions?
+should use other frameworks??? tailwind?
+should use media query for responsive? only used with bootstrap...
 color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
 image optimize using "picture"
 validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
@@ -50,3 +52,4 @@ fonts - it works by setting each h1-h5 tags
 memo
 .display-1～>.display-4 
 detail add? - try(if possible, description pop up when card touched)
+bold /Equivalent of 700 . - bolder/ Bolder than the inherited font weight

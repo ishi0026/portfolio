@@ -68,7 +68,16 @@
             <!-- Adding the section to Graphic -->
             <div class="row justify-content-center">
                 <div class="card-works border-light bg-light col-sm-4 m-3" style="width: 25rem;">
-                    <img src="images/graphic-images/icon.jpg" class="card-img-top" alt="...">
+                  <picture>
+                    <source srcset="images/graphic-images/icon-500_x_500.jpg" 
+                            media="(min-width: 992px)"/><!-- 幅992px以上なら表示 -->
+                    <source srcset="images/graphic-images/icon-400_x_400.jpg" 
+                            media="(min-width: 768px)"/><!-- 幅768px以上なら表示 -->
+                    <source srcset="images/graphic-images/icon-300_x_300.jpg" 
+                            media="(min-width: 600px)"/><!-- 幅600px以上なら表示 -->
+                    <img src="images/graphic-images/icon.jpg" class="card-img-top" alt="..."><!-- それ以外で表示 -->
+                  <picture>
+                    <!--もと <img src="images/graphic-images/icon.jpg" class="card-img-top" alt="..."> -->
                 </div>
                 <div class="card-works border-light bg-light col-sm-4 m-3" style="width: 25rem;">
                     <img src="images/graphic-images/businesscard.PNG" class="card-img-top" alt="...">
