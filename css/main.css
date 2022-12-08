@@ -22,13 +22,13 @@ body {
 }
 
 :root{
-    --bs-main-color: #ec847b;
-    --bs-main-rgb: 36, 132, 123;
-    --bs-sub-color: #FFFFFF;
-    --bs-sub-rgb: 255, 255, 255;
+    --bs-primary: #ec847b; 
+    --bs-primary-rgb: 236, 132, 123;
+    --bs-secondary: #FFFFFF;
+    --bs-secondary-rgb: 255, 255, 255;
     --bs-third-color: #ffde59;
-    --bs-main-rgb: 255, 222, 89;
-
+    --bs-third-rgb: 255, 222, 89;
+    --bs-danger: #ec847b; /* change the text-danger color in this part*/
   }
 
 /* ★★★？？？
@@ -110,7 +110,7 @@ textarea{
     text-align: left;
   }
     
-  /* The Submit button will turn green when mouse hovers */
+  /* The Submit button will turn yellow when mouse hovers */
   .col button {
     position: relative;
     left: 45%;
@@ -119,8 +119,8 @@ textarea{
     display: block;
     text-align: center;
   
-    color: var(--bs-sub-color);
-    background-color: var(--bs-main-color);
+    color: var(--bs-secondary);
+    background-color: var(--bs-primary);
     text-transform: uppercase;
   
     text-decoration: none;  

@@ -14,20 +14,17 @@ portfolio for Final Project
 
 
 Questions?
-add contents
-color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
+1.add contents
+★2.color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 　
 
-validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
+★3.validate html, css -  in html, contactForm for attribute role in form →　I can only use some words in ARIA /  ok(deleted footer roles):socialmedia for attribute role on element footer in footer error??? 
 
-should use other frameworks??? tailwind?
+★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
 
 if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
 if possible, icon and favicon make rounded
 if possible, description pop up when card touched
-
-card animation delete in specific one →　change class name to avoid move top page's cards
-→ card size optimize in each png?(animate showed difference)
 
 make button for pdf? or, delete button?
 
@@ -35,6 +32,10 @@ make button for pdf? or, delete button?
 △
 accecibility aria add -almost done / just make sure at last- role, placeholder etc
 image optimize using "picture" - almost done / just make sure does need --w or not 
+
+card animation delete in specific one →　change class name to avoid move top page's cards
+→ card size optimize in each png?(animate showed difference)  → ok? animation not required in rubrics
+
 
 ==
 〇
