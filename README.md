@@ -14,11 +14,7 @@ portfolio for Final Project
 
 
 Questions?
-1.add contents
-★2.color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 　
-
-★3.validate html, css -  in html, contactForm for attribute role in form →　I can only use some words in ARIA /  ok(deleted footer roles):socialmedia for attribute role on element footer in footer error??? 
-
+1.add contents(paragraphs)
 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
 
@@ -54,7 +50,14 @@ submit button animation - ok added  .col button {} in css
 
 footer &copy right bottom side - only tried in contact page -ok  added .row{ text-align: left;} in css, and change the div<> to bottom of the sns links
 
-fonts - it works by setting each h1-h5 tags
+fonts - it works by setting each h1-h5 tags ok
+
+★2.color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 　
+→ we can change the default color name using bs-primary:#xxxx in css file
+
+★3.validate html, css -  in html, contactForm for attribute role in form →　I can only use some words in ARIA /  ok(deleted footer roles):socialmedia for attribute role on element footer in footer error??? → ARIA roles can only use specific words. such as region. so we can't create original names for them.
+
+
 
 memo
 .display-1～>.display-4 

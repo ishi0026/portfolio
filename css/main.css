@@ -17,7 +17,7 @@ I'm using a CSS Reset by Meyer Web
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-weight: bolder;
+    /* font-weight: bold; */
     max-width: 80vw;
 }
 
