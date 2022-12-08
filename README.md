@@ -14,7 +14,7 @@ portfolio for Final Project
 
 
 Questions?
-
+add contents
 color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
 
 validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
@@ -28,6 +28,8 @@ if possible, description pop up when card touched
 
 card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)
+
+make button for pdf? or, delete button?
 
 ==
 △
