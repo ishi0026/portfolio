@@ -14,11 +14,14 @@ portfolio for Final Project
 
 
 Questions?
+
+color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
+
+validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
+
 should use other frameworks??? tailwind?
 should use media query for responsive? only used with bootstrap...
-color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 
-image optimize using "picture"
-validate html, css -  contactForm for attribute role in form /  socialmedia for attribute role on element footer in fotter??? 
+
 if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
 if possible, icon and favicon make rounded
 if possible, description pop up when card touched
@@ -27,11 +30,12 @@ card animation delete in specific one →　change class name to avoid move top 
 → card size optimize in each png?(animate showed difference)
 
 ==
-
-accecibility aria add almost done / just make sure at last- role, placeholder etc
+△
+accecibility aria add -almost done / just make sure at last- role, placeholder etc
+image optimize using "picture" - almost done / just make sure does need --w or not 
 
 ==
-
+〇
 delete the color around "works" -ok add bg-light
 space on "works" ok - delete py-5 it used for y axis
 navigation bar right ok -justify content-end, contents right (remove spaces) ok - class="bg-light container-md mb-5"
