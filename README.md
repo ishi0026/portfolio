@@ -18,15 +18,18 @@ Questions?
 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
 
+
+make button for pdf? or, delete button?　whici looks nicer? →　add buttons
+
 if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
-if possible, icon and favicon make rounded
+if possible, icon:ok and favicon kmake rounded
 if possible, description pop up when card touched
 
-make button for pdf? or, delete button?
+
 
 ==
 △
-accecibility aria add -almost done / just make sure at last- role, placeholder etc
+accecibility aria add -almost done / just make sure at last- role:△, placeholder:ok etc
 image optimize using "picture" - almost done / just make sure does need --w or not 
 
 card animation delete in specific one →　change class name to avoid move top page's cards

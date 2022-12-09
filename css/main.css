@@ -65,7 +65,10 @@ body {
 
 .logo {
     width: 8vw;
+    border-radius: 80px;/*circled favicon*/
+    
 }
+
 
 h2,
 h3,
@@ -99,9 +102,17 @@ h5 {
     z-index: 999;
 }
 
-/* .btn:hover{
-    background-color:red;
-} */
+/* for works pages buttons */
+.card-works .btn{
+    color: var(--bs-secondary);
+    background-color: var(--bs-primary);
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color:var(--bs-third-color);
+}
 
 textarea{
     width: 450px;
