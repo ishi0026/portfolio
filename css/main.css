@@ -65,11 +65,11 @@ body {
 
 .logo {
     width: 8vw;
-    border-radius: 80px;/*circled favicon*/
+    border-radius: 80px;/*circled around logo*/
     
 }
 
-
+h1,
 h2,
 h3,
 h4,

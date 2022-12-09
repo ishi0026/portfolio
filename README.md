@@ -14,17 +14,14 @@ portfolio for Final Project
 
 
 Questions?
-1.add contents(paragraphs)
 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
 
 
-make button for pdf? or, delete button?　whici looks nicer? →　add buttons
+make button for pdf? or, delete button?　whici looks nicer? →　add buttons - centerize did in div text-center / font-size make smaller???
 
 if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
-if possible, icon:ok and favicon kmake rounded
 if possible, description pop up when card touched
-
 
 
 ==
@@ -34,6 +31,8 @@ image optimize using "picture" - almost done / just make sure does need --w or n
 
 card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)  → ok? animation not required in rubrics
+
+if possible, icon:ok and favicon make rounded → favicon need to be circle by default image?
 
 
 ==
@@ -60,6 +59,7 @@ fonts - it works by setting each h1-h5 tags ok
 
 ★3.validate html, css -  in html, contactForm for attribute role in form →　I can only use some words in ARIA /  ok(deleted footer roles):socialmedia for attribute role on element footer in footer error??? → ARIA roles can only use specific words. such as region. so we can't create original names for them.
 
+1.add contents(paragraphs) ok
 
 
 memo
