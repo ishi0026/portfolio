@@ -79,6 +79,12 @@ h5 {
     font-weight: bolder;
 }
 
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: light;
+    font-size: large;
+}
+
 .nav-item{
     font-size: x-large;
 }
