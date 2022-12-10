@@ -9,8 +9,8 @@ I'm using a CSS Reset by Meyer Web
    License: none (public domain)
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');  */
 
 
 
@@ -73,9 +73,10 @@ h5 {
     font-weight: bolder;
 }
 
-p {
+p,
+li {
     font-family: 'PT Sans', sans-serif;
-    font-weight: light;
+    font-weight:lighter;
     font-size: large;
 }
 
