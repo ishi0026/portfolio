@@ -9,9 +9,10 @@ I'm using a CSS Reset by Meyer Web
    License: none (public domain)
 */
 
-/* Importing google font??? */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap'); 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap'); */
+
 
 /* ========================================= Global CSS ====================================== */
 
@@ -31,13 +32,6 @@ body {
     --bs-danger: #ec847b; /* change the text-danger color in this part*/
   }
 
-/* ★★★？？？
-.btn-primary{
-    --bs-btn-bg: var(--bs-main-color);
-    --bs-btn-border-color: var(--bs-main-color);
-  } */
-  
-/* ===== */
 
 /* For skiplinks */
 .skip-links {
@@ -80,7 +74,7 @@ h5 {
 }
 
 p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: light;
     font-size: large;
 }
