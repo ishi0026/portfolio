@@ -16,11 +16,17 @@ portfolio for Final Project
 Questions?
 ★ 1 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
+-https://animate.style/
+-https://elrumordelaluz.github.io/csshake/
+
+
 2 Write README
 3 Validate codes again
 
 if possible, make button for pdf? or, delete button?　whici looks nicer? →　add buttons - centerize did in div text-center / font-size make smaller???
 
+
+if possible, create form using javascript or something
 if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
 if possible, description pop up when card touched
 

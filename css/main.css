@@ -98,7 +98,7 @@ p {
     padding: 0 0.5em 0.5em 0;
 }
 
-/* Styling the Cards */
+/* Styling the Cards in works page */
 .card-works{
     transition: transform 800ms, z-index 800ms;
 }
@@ -107,6 +107,8 @@ p {
     transform: scale(1.3);
     z-index: 999;
 }
+
+
 
 /* for works pages buttons */
 .card-works .btn{
@@ -149,6 +151,28 @@ textarea{
     background-color: var(--bs-third-color);
   }
   
+  /* trying to make ballon in contact form */
+.balloon{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    background: #cdcdcd;
+    border-radius: 20px;
+  }
+  .balloon::after{
+    content: "";
+    position: absolute;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    right: -30px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 30px solid #cdcdcd;
+    border-bottom: 10px solid transparent;
+  }
 
 footer{
     text-align: right;
