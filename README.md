@@ -4,19 +4,54 @@ portfolio for Final Project
 # welcome to my portfolio
 
 # process 
+1. Design
+Produced a unique design for this assignment.
+After comparing several freelancers' websites, we decided to keep the design simple to make the work stand out.
+
+2. Create HTML structure
+The site is divided into four pages: Home, About, Works, and Contact. The size and less volume of the text were carefully considered to keep the design simple. 
+
+3. Create basic CSS
+Colors are mostly from favicon and logo. The number of colors was also minimized. The color scheme was changed using custom properties.
+
+4. Add CSS library 
+Animate css was used to add movement to the index and about titles, and Shake css was used to add playfulness to the contact page.
+
+5. Final Check
+Check Accessibility using ARIA, skiplinks
+Image optimization using picture
+code validation, especially I checked on ARIA role
 
 # challenges you faced during development
 # how you overcame those changes
+using cards - with animation
+color optimization
+using libraries
 
-# What have you learned by creating your web portfolio? 
+
+# What have you learned by creating your web portfolio?
+I wanted to create simple designs. 
+In that case, 
+adding many words sometimes confused to viewers(in my opinion)
+adding too much animation disruct understanding
+So it may be important I should use simple but necessary (show skills) tools
+
 
 # a list of any assets or resources you used that was not your own,including any frameworks, libraries, plugins, fonts, or images. 
 
+CSS libraries
+-https://animate.style/ in index,about ok
+-https://elrumordelaluz.github.io/csshake/ in contact  ok
 
+Fonts
+-https://fonts.google.com/specimen/Nunito
+-https://fonts.google.com/specimen/PT+Sans
+
+
+=========================
 Questions?
 
 2 Write README
-3 Validate codes again
 
 
 if possible, create form using javascript or something
@@ -63,11 +98,12 @@ fonts - it works by setting each h1-h5 tags ok
 
 1.add contents(paragraphs) ok
 
-
 ★ 1 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
 should use media query for responsive? only used with bootstrap...
 -https://animate.style/ in index,about ok
 -https://elrumordelaluz.github.io/csshake/ in contact  ok
+
+3 Validate codes again ok
 
 
 memo
