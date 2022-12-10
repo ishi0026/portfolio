@@ -4,20 +4,20 @@ portfolio for Final Project
 # welcome to my portfolio
 
 # process 
-1. Design
+1. Design  
 Produced a unique design for this assignment.
 After comparing several freelancers' websites, we decided to keep the design simple to make the work stand out.
 
-2. Create HTML structure
+2. Create HTML structure  
 The site is divided into four pages: Home, About, Works, and Contact. The size and less volume of the text were carefully considered to keep the design simple. 
 
-3. Create basic CSS
+3. Create basic CSS  
 Colors are mostly from favicon and logo. The number of colors was also minimized. The color scheme was changed using custom properties.
 
-4. Add CSS library 
+4. Add CSS library  
 Animate css was used to add movement to the index and about titles, and Shake css was used to add playfulness to the contact page.
 
-5. Final Check
+5. Final Check  
 Check Accessibility using ARIA, skiplinks
 Image optimization using picture
 code validation, especially I checked on ARIA role
@@ -39,13 +39,13 @@ So it may be important I should use simple but necessary (show skills) tools
 
 # a list of any assets or resources you used that was not your own,including any frameworks, libraries, plugins, fonts, or images. 
 
-CSS libraries
--https://animate.style/ in index,about ok
--https://elrumordelaluz.github.io/csshake/ in contact  ok
+CSS libraries  
+-https://animate.style/  
+-https://elrumordelaluz.github.io/csshake/  
 
-Fonts
--https://fonts.google.com/specimen/Nunito
--https://fonts.google.com/specimen/PT+Sans
+Fonts  
+-https://fonts.google.com/specimen/Nunito  
+-https://fonts.google.com/specimen/PT+Sans  
 
 
 =========================
