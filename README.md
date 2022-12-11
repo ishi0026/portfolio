@@ -24,9 +24,19 @@ code validation, especially I checked on ARIA role
 
 # challenges you faced during development
 # how you overcame those changes
-using cards - with animation
-color optimization
+1. use of cards - making them clickable
+I wanted to put 3 images and descriptions on the top page of the index, but couldn't figure out how to do it. I wondered if I should use columns.
+However, I remembered the bootstrap cards I had learned in class and was able to place them using that function. I also adjusted the position of the card border and text to make it easier to read.
+In addition, I wanted to make it so that clicking on a card describing the service would take you to the works page, so I used the stretch-link function to expand the clickable range to the entire card.
+
+2. Color optimization
+Initially, colors were set one by one. However, in bootstrap, I used :root{    -bs-primary: etc., 
+I remembered that I could specify my desired colors, and used them to use two main colors.
+Also, the link file to bootstrap came after main.css, which prevented color changes, so the order was changed.
+
 using libraries
+accesibility
+
 
 
 # What have you learned by creating your web portfolio?
@@ -46,68 +56,3 @@ CSS libraries
 Fonts  
 -https://fonts.google.com/specimen/Nunito  
 -https://fonts.google.com/specimen/PT+Sans  
-
-
-=========================
-Questions?
-
-2 Write README
-
-
-if possible, create form using javascript or something
-if possible, card links - hope not make it blue and undelined  → bad effect for social media link, so deleted once
-if possible, description pop up when card touched
-
-
-==
-△
-accecibility aria add -almost done / just make sure at last- role:△, placeholder:ok etc
-image optimize using "picture" - almost done / just make sure does need --w or not -- i think not (https://www.w3schools.com/tags/tag_picture.asp)
-→　It should write from big sizes
-
-card animation delete in specific one →　change class name to avoid move top page's cards
-→ card size optimize in each png?(animate showed difference)  → ok? animation not required in rubrics
-
-if possible, icon:ok and favicon make rounded → favicon need to be circle by default image?
-
-if possible, make button for pdf? or, delete button?　whici looks nicer? →　add buttons - centerize did in div text-center / font-size make smaller???  →　 created button ok
-
-
-==
-〇
-delete the color around "works" -ok add bg-light
-space on "works" ok - delete py-5 it used for y axis
-navigation bar right ok -justify content-end, contents right (remove spaces) ok - class="bg-light container-md mb-5"
-The size of the icons ok
-skiplinks work ok
-the size of the box ok - change rem, 
-works-delete line around box ok-border-light
-index delete line around box ok- div class="card h-100 border-light"
-change SNS icon size ok -in css Svg section
-submit button center -ok  created div class and set col / mx-auto d-block also work
-
-submit button animation - ok added  .col button {} in css
-
-footer &copy right bottom side - only tried in contact page -ok  added .row{ text-align: left;} in css, and change the div<> to bottom of the sns links
-
-fonts - it works by setting each h1-h5 tags ok
-
-★2.color custom properties - contact page button is ok, will add works page or not? can I change text-danger color? or should add specific name? 　
-→ we can change the default color name using bs-primary:#xxxx in css file
-
-★3.validate html, css -  in html, contactForm for attribute role in form →　I can only use some words in ARIA /  ok(deleted footer roles):socialmedia for attribute role on element footer in footer error??? → ARIA roles can only use specific words. such as region. so we can't create original names for them.
-
-1.add contents(paragraphs) ok
-
-★ 1 ★should use other frameworks??? tailwind? js? yes- trying to use animation css or something
-should use media query for responsive? only used with bootstrap...
--https://animate.style/ in index,about ok
--https://elrumordelaluz.github.io/csshake/ in contact  ok
-
-3 Validate codes again ok
-
-
-memo
-.display-1～>.display-4 
-detail add? - try(if possible, description pop up when card touched)
-bold /Equivalent of 700 . - bolder/ Bolder than the inherited font weight
