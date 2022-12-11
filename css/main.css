@@ -84,6 +84,20 @@ li {
     font-size: x-large;
 }
 
+.col a{
+    text-decoration: none;    
+}
+
+.col a,a:hover,a:visited{
+    color: inherit;
+}
+
+/* style "jump to works" button */
+.d-flex .btn {
+    color: var(--bs-secondary);
+    background-color: var(--bs-primary);
+}
+
 /* style "back to top" button */
 .backTop{
     display: flex;
@@ -109,7 +123,7 @@ li {
 .card-works .btn{
     color: var(--bs-secondary);
     background-color: var(--bs-primary);
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     border-radius: 20px;
 }
 

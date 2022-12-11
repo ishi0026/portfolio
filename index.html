@@ -39,7 +39,7 @@
      </ul>
       
         <!-- navigation bar -->
-        <!-- humburger menu -->
+        <!-- humburger menu using bootstrap -->
          <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" role="navigation" id="navigation">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo.png"
@@ -66,21 +66,20 @@
             </div>
           </nav>
     </header>
-    <hr class="mb-5">
 
+    <hr class="mb-5">
      <main>
         <section>
             <!-- banner -->
-            <div class="banner">
+            <div class="banner" role="banner">
                 <h1 class="display-4 fw-bold mt-3 mt-sm-0 animate__animated animate__bounce">Yuka Design Studio</h1>
             </div>
 
             <!-- try 3 cards of services -->
             <div class="row row-cols-1 row-cols-md-3 mt-3 mb-4 g-4" role="region" id="services">
                 <div class="col">
-                  <!-- <a href="works.html" class="stretched-link">カードをリンクにしようとした１ -->
+                  <a href="works.html" class="stretched-link"><!--try to make card clickable and jump to work.html-->
                     <div class="card h-100 border-light">
-                      <!-- <img src="..." class="card-img-top" alt="..."> -->
                       <i class="mx-auto d-block fa-solid fa-palette fa-7x mt-3 mb-4"></i>
                       <div class="card-body">
                         <h4 class="card-title text-center">Graphic</h4>
@@ -89,11 +88,10 @@
                           We determine what is necessary and what is not, and provide cost-effective graphics.</p>
                       </div>
                     </div>
-                  <!-- </a> カードをリンクにしようとした２閉じ-->
+                  </a> <!--close streached-link-->
                 </div>
                 <div class="col">
                   <div class="card h-100 border-light">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
                     <i class="mx-auto d-block fa-solid fa-laptop fa-7x mt-3 mb-4"></i>
                     <div class="card-body">
                       <h4 class="card-title text-center">Web Design</h4>
@@ -106,7 +104,6 @@
                 </div>
                 <div class="col">
                   <div class="card h-100 border-light">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
                     <i class="mx-auto d-block fa-solid fa-camera fa-7x mt-3 mb-4"></i>
                     <div class="card-body">
                       <h4 class="card-title text-center">Photography</h4>
@@ -117,6 +114,14 @@
                 </div>
               </div>
         </section>
+        
+        <!-- set button to jump to works page -->
+        <div class="d-flex justify-content-end">
+          <a href="works.html" class="btn btn-primary border-0 rounded-60 p-1 px-2 fs-4 mb-3">
+              Jump to my works
+          </a>
+        </div>
+
         <!-- back to top button -->
         <div class="backTop"><a href="#navigation" role="link" id="backtoTop">Back to top</a></div>
      </main>
@@ -151,10 +156,5 @@
 <!-- link to use Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<!-- 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
     
 </html>
