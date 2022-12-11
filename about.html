@@ -91,8 +91,15 @@
                        
                     </div>
                     <div class="col">
-                        <img src="images/bannar.png" alt="image of myself"
-                            class="rounded img-fluid w-100 h-md-100">
+                      <picture>
+                        <source srcset="images/banner/bannar-500_x_433.png" 
+                                media="(min-width: 992px)"><!-- Display if width is 992px or more -->
+                        <source srcset="images/banner/bannar-400_x_346.png" 
+                                media="(min-width: 768px)"><!-- Display if width is 768px or more -->
+                        <source srcset="images/banner/bannar-300_x_260.png" 
+                                media="(min-width: 600px)"><!-- Display if width is 600px or more -->
+                                <img src="images/banner/bannar.png" alt="image of myself" class="rounded img-fluid w-100 h-md-100"><!-- Display other case -->
+                      </picture>
                     </div>
                 </div>
             </div>

@@ -62,7 +62,8 @@ if possible, description pop up when card touched
 ==
 △
 accecibility aria add -almost done / just make sure at last- role:△, placeholder:ok etc
-image optimize using "picture" - almost done / just make sure does need --w or not 
+image optimize using "picture" - almost done / just make sure does need --w or not -- i think not (https://www.w3schools.com/tags/tag_picture.asp)
+→　It should write from big sizes
 
 card animation delete in specific one →　change class name to avoid move top page's cards
 → card size optimize in each png?(animate showed difference)  → ok? animation not required in rubrics
