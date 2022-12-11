@@ -23,8 +23,7 @@ Image optimization using picture
 Accesibility, especially I checked on ARIA role  
 Code validation  
 
-# challenges I faced during development
-# how I overcame those changes
+# challenges I faced during development, how I overcame those changes
 1. Using cards - setting & making them clickable  
 I wanted to put 3 images and descriptions on the top page of the index, but couldn't figure out how to do it. I wondered if I should use columns.  
 However, I remembered the bootstrap cards I had learned in class and was able to place them using that function. I also adjusted the position of the card border and text to make it easier to read.  
