@@ -18,36 +18,54 @@ Colors are mostly from favicon and logo. The number of colors was also minimized
 Animate css was used to add movement to the index and about titles, and Shake css was used to add playfulness to the contact page.
 
 5. Final Check  
-Check Accessibility using ARIA, skiplinks
-Image optimization using picture
-code validation, especially I checked on ARIA role
+Check Accessibility using ARIA, skiplinks  
+Image optimization using picture  
+code validation, especially I checked on ARIA role  
 
 # challenges you faced during development
 # how you overcame those changes
-1. use of cards - making them clickable
-I wanted to put 3 images and descriptions on the top page of the index, but couldn't figure out how to do it. I wondered if I should use columns.
-However, I remembered the bootstrap cards I had learned in class and was able to place them using that function. I also adjusted the position of the card border and text to make it easier to read.
-In addition, I wanted to make it so that clicking on a card describing the service would take you to the works page, so I used the stretch-link function to expand the clickable range to the entire card.
+1. use of cards - making them clickable  
+I wanted to put 3 images and descriptions on the top page of the index, but couldn't figure out how to do it. I wondered if I should use columns.  
+However, I remembered the bootstrap cards I had learned in class and was able to place them using that function. I also adjusted the position of the card border and text to make it easier to read.  
+In addition, I wanted to make it so that clicking on a card describing the service would take you to the works page, so I used the stretch-link function to expand the clickable range to the entire card.  
 
-2. Color optimization
-Initially, colors were set one by one. However, in bootstrap, I used :root{    -bs-primary: etc., 
-I remembered that I could specify my desired colors, and used them to use two main colors.
-Also, the link file to bootstrap came after main.css, which prevented color changes, so the order was changed.
+2. Color optimization  
+I had a hard time setting the colors.  
+Initially, colors were set one by one. However, in bootstrap, I used :root{    -bs-primary: etc.,  
+I remembered that I could specify my desired colors, and used them to use two main colors.  
+Also, the link file to bootstrap came after main.css, which prevented color changes, so the order was changed.  
 
-using libraries
-accesibility
+3. Using libraries  
+It was difficult to understand how to use the library.  
+I wanted to add animations to pages other than the works page, which had already been animated with css.  
+I looked for animations that would not interfere with the layout, and chose animation.css and shake.css, which can be used in link implementations. 
+I was careful about the position of the css files not to do same mistaks when specifying colors.  
+The animations are interesting because of their movement, but too many would be difficult to see, so I kept them to a minimum, about one per page.  
+
+4. Accesibility  
+It was difficult to write the roles.  
+At first, I wanted to write roles as detailed as possible for the sake of clarity, mistakenly believing that I could give them original names just as I had done with the id.  
+However, the validation check produced errors, so I re-read the ARIA class content and documentation. I also took advice from my professor and learned that there are several fixed names.  
 
 
+# What have you learned by creating your web portfolio?  
+I learned about the rich features of bootstrap.  
+It was very interesting to be able to implement parts of the site that I had previously implemented by writing many lines of css by adding a single sentence in the HTML.  
+For example, I had a hard time with the margins of text and buttons in midterm, but I learned how to use simple words like mb in bootstrap
+I had a hard time with the margins of text and buttons in midterm, but with bootstrap, simple words like mb are all that is needed.  
+Also, I found that the visual arrangement of the site can be improved by modifying the position and colors based on various examples in bootstrap.  
 
-# What have you learned by creating your web portfolio?
-I wanted to create simple designs. 
-In that case, 
-adding many words sometimes confused to viewers(in my opinion)
-adding too much animation disruct understanding
-So it may be important I should use simple but necessary (show skills) tools
+I learned about various functions and wanted to try them out, but at the same time, I learned how difficult it is to think about the ease of viewing.  
+For example, too much text can confuse the viewer.  
+
+If you use a lot of animations, it is more difficult to understand. I felt that this was a good thing.  
+However, as a portfolio, it is also important to show your skills, so it is difficult to find the right balance. I felt that it may be important to choose and use simple but necessary techniques.  
 
 
 # a list of any assets or resources you used that was not your own,including any frameworks, libraries, plugins, fonts, or images. 
+
+ARIA
+https://www.w3.org/TR/html-aria/#el-footer
 
 CSS libraries  
 -https://animate.style/  
