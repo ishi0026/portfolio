@@ -50,7 +50,7 @@ However, the validation check produced errors, so I re-read the ARIA class conte
 
 # What have I learned by creating my web portfolio?  
 I learned about the rich features of bootstrap.  
-It was very interesting to be able to implement parts of the site that I had previously implemented by writing many lines of css by adding a single sentence in the HTML.For example, I had a hard time with the margins of text and buttons in midterm, but I learned how to use simple words like `mb-` in bootstrap.
+It was very interesting to be able to implement parts of the site that I had previously implemented by writing many lines of css by adding a single sentence in the HTML. For example, I had a hard time with the margins of text and buttons in midterm, but I learned how to use simple words like `mb-` in bootstrap.  
 Also, creating responsive design is much easier, just writing simple words such as `.col-lg-` supported me to create responsive design.  
 Lastly, I found that the visual arrangement of the site can be improved by modifying the position and colors based on various examples in bootstrap.  
 
@@ -67,4 +67,5 @@ In addition, I need to create more works to add my portfolio because just showin
 [CSS libraries-animate.css](https://animate.style/)  
 [CSs libraries-cssshake](https://elrumordelaluz.github.io/csshake/)
 
-[Fonts](https://fonts.google.com/specimen/Nunito)  (https://fonts.google.com/specimen/PT+Sans)
+[Fonts-Nunito](https://fonts.google.com/specimen/Nunito)  
+[Fonts-PT Sans](https://fonts.google.com/specimen/PT+Sans)
