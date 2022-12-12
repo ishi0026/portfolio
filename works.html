@@ -69,14 +69,16 @@
   <hr class="mb-5">
     <main role="main">
           <!-- Adds the sections for the different works with appropriate styling -->
+          <!-- container-fluid" is to make the same effect as "width: 100%" -->
           <section class="container-fluid" role="region" id="aboutWorks">
-
             <h1 class="display-4 fw-bold mt-5">
                 Works
             </h1>
             <h2>Graphic</h2>
             <!-- Adding the section to Graphic -->
             <div class="row justify-content-center">
+              <!-- If the screen size is sm (Small) or larger, 
+                it will be divided into 3 sections, and if the screen size is smaller than that, the sections will be aligned vertically. -->
                 <div class="card-works border-light bg-light col-sm-4 m-3" style="width: 25rem;">
                   <picture>
                     <source srcset="images/graphic-images/icon-500_x_500.jpg" 
@@ -112,6 +114,7 @@
                     <img src="images/graphic-images/poster_blue.png" class="card-img-top" alt="images of sci-fi poster"><!-- Display other case -->
                   </picture>  
                 </div>
+                
             </div>
         </section>
         <section class="container-fluid py-5">
